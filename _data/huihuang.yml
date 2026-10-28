@@ -1,6 +1,6 @@
 {
   "draft": false,
-  "updated": "2026-10-09",
+  "updated": "2026-10-28",
   "name": {
     "zh": "黄晖",
     "en": "Hui Huang"
@@ -56,12 +56,13 @@
   ],
   "publications": [
     {
-      "title": "Real-Time Task Offloading with Task-Level Multi-Agent Transformer in Heterogeneous Multi-access Edge Computing",
+      "title": "Real-Time Task Offloading With Task-Level Multi-Agent Transformer in Heterogeneous Multi-Access Edge Computing",
       "venue": "IEEE Transactions on Cloud Computing",
       "type": "journal",
       "status": "accepted",
       "acceptedDate": "2026-10-01",
-      "shortVenue": "TCC"
+      "shortVenue": "TCC",
+      "authors": "Hui Huang, Yitong Zhou, Qiang Ye"
     },
     {
       "title": "Diversity-Driven Multi-Expert Deep Reinforcement Learning for Adaptive Mobile Edge Computing",
@@ -69,7 +70,17 @@
       "type": "conference",
       "status": "accepted",
       "acceptedDate": "2026-07-31",
-      "shortVenue": "GLOBECOM"
+      "shortVenue": "GLOBECOM",
+      "authors": "Liang Xu, Hui Huang, Jie Hou, Shiquan Lin"
+    },
+    {
+      "title": "PUUP: Descriptor-Guided Update Prioritization for Multimodal Federated Parkinson's Disease Classification",
+      "authors": "Shiquan Lin, Hui Huang, Qian Fang",
+      "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "shortVenue": "BIBM"
     },
     {
       "title": "Safety-Critical Offloading with Constrained Reinforcement Learning for Multi-access Edge Computing",

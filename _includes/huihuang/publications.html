@@ -4,8 +4,15 @@
 
 <h3>Accepted Papers</h3>
 <ul class="hui-publications">
+{% for priority in (1..2) %}
 {% for publication in accepted %}
+{% assign first_author = publication.authors | split: ',' | first | strip %}
+{% if priority == 1 and first_author == site.data.huihuang.name.en %}
 {% include huihuang/publication-item.html %}
+{% elsif priority == 2 and first_author != site.data.huihuang.name.en %}
+{% include huihuang/publication-item.html %}
+{% endif %}
+{% endfor %}
 {% endfor %}
 </ul>
 
